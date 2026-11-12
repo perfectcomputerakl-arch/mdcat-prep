@@ -29,10 +29,7 @@ jobs:
           cp -r /tmp/bak/lib /tmp/bak/assets /tmp/bak/pubspec.yaml .
 
       - run: flutter pub get
-      - run: flutter build apk --release
+      - run: flutter build apk --debug
 
       - uses: actions/upload-artifact@v4
         with:
-          name: mdcat-prep-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
-          
