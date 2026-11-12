@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:in_app_purchase/in_app_purchase.dart';
@@ -459,6 +460,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             TextButton(onPressed: iap.restorePurchases, child: const Text('Restore purchase')),
+            if (kDebugMode)
+              TextButton(
+                onPressed: () async {
+                  await widget.app.setPro(true);
+                  setState(() {});
+                },
+                child: const Text('Test: unlock Premium'),
+              ),
           ],
         ]),
       );
