@@ -1,0 +1,22 @@
+{
+  "Biology": [
+    {"q": "Which organelle is the main site of ATP production?", "o": ["Ribosome", "Mitochondrion", "Golgi body", "Lysosome"], "a": 1, "e": "Mitochondria make most ATP through aerobic respiration.", "t": "Cell biology"},
+    {"q": "In DNA, adenine pairs with:", "o": ["Guanine", "Cytosine", "Thymine", "Uracil"], "a": 2, "e": "A pairs with T (two hydrogen bonds); G pairs with C (three).", "t": "Genetics"},
+    {"q": "Most enzymes are chemically:", "o": ["Lipids", "Carbohydrates", "Proteins", "Nucleotides"], "a": 2, "e": "Enzymes are mostly proteins that speed up reactions.", "t": "Biomolecules"}
+  ],
+  "Chemistry": [
+    {"q": "pH of pure water at 25°C is:", "o": ["0", "7", "10", "14"], "a": 1, "e": "Neutral water has [H+] = 10^-7 M, so pH = 7.", "t": "Acids & bases"},
+    {"q": "Atomic number of carbon is:", "o": ["4", "6", "8", "12"], "a": 1, "e": "Carbon has 6 protons.", "t": "Atomic structure"},
+    {"q": "Avogadro's number is approximately:", "o": ["6.022 x 10^23", "3 x 10^8", "9.8", "1.6 x 10^-19"], "a": 0, "e": "One mole contains 6.022 x 10^23 particles.", "t": "Mole concept"}
+  ],
+  "Physics": [
+    {"q": "SI unit of force is:", "o": ["Joule", "Watt", "Newton", "Pascal"], "a": 2, "e": "Newton = kg·m/s².", "t": "Dynamics"},
+    {"q": "Which is a vector quantity?", "o": ["Mass", "Speed", "Time", "Velocity"], "a": 3, "e": "Velocity has both magnitude and direction.", "t": "Vectors"},
+    {"q": "Unit of electrical resistance is:", "o": ["Ohm", "Volt", "Ampere", "Farad"], "a": 0, "e": "Ohm's law: R = V / I.", "t": "Current electricity"}
+  ],
+  "English": [
+    {"q": "Synonym of 'benevolent':", "o": ["Cruel", "Kind", "Lazy", "Angry"], "a": 1, "e": "Benevolent means well-meaning and kind.", "t": "Vocabulary"},
+    {"q": "Antonym of 'scarce':", "o": ["Rare", "Limited", "Abundant", "Tiny"], "a": 2, "e": "Scarce = in short supply; abundant = plentiful.", "t": "Vocabulary"},
+    {"q": "She ___ to school every day.", "o": ["go", "goes", "going", "gone"], "a": 1, "e": "Third person singular takes -es in present simple.", "t": "Grammar"}
+  ]
+}
